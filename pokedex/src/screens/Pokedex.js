@@ -28,7 +28,7 @@ const loadPokemons = async () =>{
         name: pokemonDetails.name,
         type: pokemonDetails.types[0].type.name,
         order: pokemonDetails.order,
-        image: pokemonDetails.sprites.other["official-artwork"].front_default,
+        image: pokemonDetails.sprites.other["dream_world"].front_default,
       })
     }
 
