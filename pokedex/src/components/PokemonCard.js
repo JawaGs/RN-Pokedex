@@ -9,6 +9,7 @@ export default function PokemonCard({ pokemon } = props) {
   const bgStyles = { backgroundColor: pokemonColor, ...styles.bgStyles }
 
   const goToPokemon = () => {
+    console.log('Pokemon', pokemon)
     navigation.navigate("Pokemon", { id: pokemon.id })
   }
 

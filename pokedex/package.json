@@ -25,7 +25,11 @@
     "react-native-vector-icons": "^9.2.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends":["./node_modules/standard/eslintrc.json"]
   },
   "private": true
 }
